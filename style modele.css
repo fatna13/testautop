@@ -1,0 +1,147 @@
+
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    /* border: 2px solid red; */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.logo svg{
+    margin-right:2%;
+    width:168px;
+}
+
+.menu{
+    /* border: 2px solid green;  */
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-self: center; 
+}
+.menu a{
+    text-decoration:none;
+    color:white;
+    margin-right:4%;
+}
+
+.logo a{
+    text-decoration:none;
+    color:white;
+    display:flex;
+    align-items: center;
+    margin-right: 0%;
+}
+
+/* partie présentation texte */
+
+.main{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+padding:10%;
+}
+
+.main p{
+    width:30%;
+    text-align:center;
+    min-width: 265px;
+    color:grey;
+}
+
+.main button{
+    width: 150px;
+    padding:3%;
+    color:white;
+    border:none;
+    border-radius:5%;
+}
+
+.btn1{
+    background: rgb(77, 92, 226);
+}
+
+.btn2{
+    background: rgb(98, 109, 109);
+}
+
+/* container */
+
+.container{
+    width:100%;
+    background:white;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:1%;
+}
+
+.carte{
+    display:flex;
+    flex-direction:column;
+    width: 300px;
+    border-radius: 6px;
+    margin-right: 6%;
+    margin-top: 6%;
+}
+
+.haut img{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.text, .view{
+    padding:5%;
+}
+
+.view{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.haut{
+    height: 228px;
+    overflow: hidden;
+}
+
+.viewbutton{
+    display:flex;
+}
+.viewbutton button{
+padding:10%;
+color:grey;
+background:white;
+}
+
+.time{
+    color:grey;
+}
+
+.bt1{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.bt2{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.viewbutton button:hover{
+    background:grey;
+    color:white;
+    transition-duration: 0.5s;
+}

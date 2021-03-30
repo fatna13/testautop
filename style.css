@@ -1,0 +1,99 @@
+.header
+{background: black;
+color: white;
+display: inline-flex;
+}
+
+.logo{
+    border: 2px green; 
+    display: inline-flex; 
+    justify-content: center;  
+    align-items: center;
+    width: 20%;
+
+}
+
+.logo svg{
+    margin-right: 3%;
+}
+.menu{
+    border: 2px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+   
+/*  */
+.main p{
+    width: 35px;
+    min-width: 265px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.main button {
+    width: 150px;
+    padding: 3%;
+    color: red;
+    border: none;
+}
+
+
+/* container */
+
+.container{
+    width: 100%;
+    background: indianred;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+
+}
+
+.carte{
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px
+    
+    
+}
+
+.view{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.viewbutton{
+    display: flex;
+}
+
+.viewbutton button{
+    padding: 10%;
+
+}
+ 
+.btnview{
+  border-top-left-radius: 2px;  
+}
+
+.btnedit{
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.viewbutton button:hover{
+    background: grey;
+    color: white;
+    transition-duration: 0.5;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+}
